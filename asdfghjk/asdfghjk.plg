@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: asdfghjk - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/asdfghjk.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjk.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA612.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\Python27\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/asdfghjk.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjk.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjkDlg.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\Mdonwload.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\Para1.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\Para2.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\Para3.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\Para4.cpp"
+"C:\Users\Administrator\Desktop\fj\asdfghjk\xunlian.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA612.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA623.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\Python27\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/asdfghjk.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\fj\asdfghjk\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA623.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA624.tmp" with contents
+[
+NLPIR.lib skinppwtl.lib /nologo /subsystem:windows /incremental:yes /pdb:"Release/asdfghjk.pdb" /debug /machine:I386 /out:"Release/asdfghjk.exe" /libpath:"C:\Python27\libs" 
+.\Release\asdfghjk.obj
+.\Release\asdfghjkDlg.obj
+.\Release\Mdonwload.obj
+.\Release\Para1.obj
+.\Release\Para2.obj
+.\Release\Para3.obj
+.\Release\Para4.obj
+.\Release\StdAfx.obj
+.\Release\xunlian.obj
+.\Release\asdfghjk.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA624.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+asdfghjk.cpp
+asdfghjkDlg.cpp
+C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjkDlg.cpp(1446) : warning C4101: 'bl1' : unreferenced local variable
+C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjkDlg.cpp(1447) : warning C4101: 'bl2' : unreferenced local variable
+C:\Users\Administrator\Desktop\fj\asdfghjk\asdfghjkDlg.cpp(2109) : warning C4101: 'jsnum' : unreferenced local variable
+Mdonwload.cpp
+Para1.cpp
+Para2.cpp
+Para3.cpp
+Para4.cpp
+xunlian.cpp
+Generating Code...
+Linking...
+   Creating library Release/asdfghjk.lib and object Release/asdfghjk.exp
+
+
+
+<h3>Results</h3>
+asdfghjk.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
